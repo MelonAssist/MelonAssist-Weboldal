@@ -1,0 +1,20 @@
+/* Alap stílusok */
+body {
+    font-family: 'Arial', sans-serif;
+    background: #121212;
+    color: white;
+    margin: 0;
+}
+
+.twitch-embed {
+    width: 80%;
+    margin: 20px auto;
+    aspect-ratio: 16/9;
+}
+
+/* Reszponzív design */
+@media (max-width: 768px) {
+    .twitch-embed {
+        width: 95%;
+    }
+}
