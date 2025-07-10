@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <title>MelonAssist | Fortnite Streamer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🍉 MelonAssist Fortnite Stream</h1>
+        <nav>
+            <a href="index.html">Főoldal</a>
+            <a href="#chat">Chat</a>
+            <a href="#about">Rólam</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Twitch Embed -->
+        <div class="twitch-embed">
+            <iframe src="https://player.twitch.tv/?channel=melonassist&parent=localhost" 
+                    frameborder="0" allowfullscreen>
+            </iframe>
+        </div>
+    </main>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
